@@ -1,0 +1,107 @@
+.wrapper {
+    background: #0c0b0f;
+    width: 90%; /* Porcentagem da largura do contêiner */
+    height: 50vh; /* 50% da altura da janela do navegador */
+    align-items: flex-start;
+    padding: 24px 24px 16px;
+    width: 23.4375rem;
+    height: 36.5625rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    html {
+        /* multiplica o valor desejado em pixels por 100 e divide por 16 que é o valor que equivale 1rem em pixels */
+        font-size: 87.5%;
+    }
+}
+
+main {
+    background: linear-gradient(107.54deg, #935fd3 0%, #9245f1 100%);
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 17.5rem;
+}
+
+header {
+    justify-content: flex-start;
+    width: 327px;
+    height: 48px;
+    gap: 16px;
+    display: flex;
+}
+
+.avatarName {
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #db0eb7;
+}
+
+.avatarEmail {
+    color: #ed51db;
+}
+
+hr {
+    width: 327px;
+    height: 0px;
+    color: #6f5b80;
+}
+
+.accountSection .preferencesSection .privacitySection {
+    font-family: "Heebo";
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #5c063d;
+}
+
+.dataPersonal
+    .infoLogin
+    .notification
+    .accesseibility
+    .device
+    .linkedAccount
+    .help
+    .logout
+    a {
+    display: flex;
+    gap: 8px;
+    width: 327px;
+    height: 36px;
+    justify-content: start;
+    font-family: "Heebo";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #751e53;
+    line-height: 20px;
+    flex: none;
+    flex-grow: 1;
+}
+
+.logout a {
+    color: #f672ed;
+}
+
+a {
+    justify-content: start;
+    display: flex;
+    gap: 8px;
+    color: #751e53;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+a:hover {
+    color: #8a6d9c;
+}

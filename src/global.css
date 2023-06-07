@@ -1,0 +1,15 @@
+:root {
+    --gradient: linear-gradient(107.54deg, #935fd3 0%, #9245f1 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* faz com que o border e padding nunca almentem a sua largura mas sim sim espremer o elemento dentro da caixa */
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--gradiente);
+    color: var(--purple-light);
+}
