@@ -1,4 +1,3 @@
-import React from 'react';
 import avatar from './assets/Avatar.png';
 import styles from './App.module.css';
 import './global.css';
@@ -14,7 +13,6 @@ import {
   Devices,
   Question,
   SignOut,
-  TShirt
 } from '@phosphor-icons/react';
 
 export function Home() {
