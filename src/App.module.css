@@ -15,7 +15,7 @@
     color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
     html {
         /* multiplica o valor desejado em pixels por 100 e divide por 16 que é o valor que equivale 1rem em pixels */
         font-size: 87.5%;
