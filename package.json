@@ -3,19 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/valeriasouza28/boraCodar-Rocketseat-profileSettings",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "prebuild": "npm run build",
-    "react": "gh-pages -d build/react",
-    "deploy": "npm run build && gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.9",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2"
